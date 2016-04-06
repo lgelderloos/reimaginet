@@ -131,5 +131,3 @@ def arrange(data, tokenize=words, limit=None):
         for sent in image['sentences']:
             toks = tokenize(sent)
             yield (toks, toks, image['feat'])
-            
-            
